@@ -1,17 +1,32 @@
-@extends('partials.main')
+@extends('partials.new')
 @section('content')
 <div class="content mt-36 md:mt-40 px-4 md:px-10 mx-auto">
   <div class="bg-transparent -z-10 absolute">
-    <div class="w-20 h-20 md:w-32 md:h-32 border-solid blur-lg dark:blur-xl border-r-[0px] border-l-[70px] border-t-[70px] border-b-[70px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-60 md:left-[580px] lg:left-[840px]" style="border-color: transparent #6b91df;"></div>
-    <div class="flex">
-      <div class="w-20 h-20 md:w-32 md:h-32 dark:blur-xl border-solid blur-lg border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative top-12 md:top-0 left-10 md:left-20 lg:left-32" style="border-color: transparent #8491ac;"></div>
-      <div class="w-20 h-20 md:w-32 md:h-32 dark:blur-xl border-solid blur-lg border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-10 md:left-20 lg:left-24" style="border-color: transparent #81a9f8;"></div>
-    </div>
+    <div class="w-20 h-20 md:w-32 md:h-32 border-solid blur-xl dark:blur-3xl border-r-[0px] border-l-[70px] border-t-[70px] border-b-[70px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-60 md:left-[580px] lg:left-[840px]" style="border-color: transparent #c4b5fd;"></div>
+    {{-- <div class="flex">
+      <div class="w-20 h-20 md:w-32 md:h-32 blur-xl border-solid border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative top-12 md:top-0 left-10 md:left-20 lg:left-32" style="border-color: transparent #c4b5fd;"></div>
+      <div class="w-20 h-20 md:w-32 md:h-32 blur-xl border-solid border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-10 md:left-20 lg:left-24" style="border-color: transparent #ddd6fe;"></div>
+    </div> --}}
   </div>
   <div class="w-5 mx-auto mb-3 text-gray-400">
     <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l-6 6m0 0l-6-6m6 6V9a6 6 0 0112 0v3"></path>
     </svg>
+  </div>
+  <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+    <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
+      <path fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+      <defs>
+        <linearGradient id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#9089FC" />
+          <stop offset="1" stop-color="#FF80B5" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+  {{-- <span class="flex items-center mx-auto justify-center text-sm font-semibold text-indigo-700 bg-indigo-100 w-32 h-8 rounded-full border-2 border-indigo-700">Web kelas v.1.0</span> --}}
+  <div class="rounded-full mx-auto w-32 text-center font-medium mb-2 px-3 py-1 text-sm leading-6 text-indigo-600 ring-1 ring-indigo-600/10 hover:ring-indigo-600/20 dark:ring-indigo-700/20">
+    Web kelas v.1.0
   </div>
   <h1 class="text-3xl mb-1 font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Rekayasa Perangkat Lunak</h1>
   <h1 class="text-3xl font-extrabold leading-none text-center tracking-tight text-blue-600 md:text-4xl lg:text-5xl dark:text-blue-500">RPL ONE #1.</h1>
@@ -47,34 +62,56 @@
   </div>
 </div>
 
-<div class="mt-16 md:mt-20 border-t border-gray-200 dark:border-gray-600 w-full">
+<div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+  <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
+    <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+    <defs>
+      <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#9089FC" />
+        <stop offset="1" stop-color="#FF80B5" />
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+
+<div class="mt-16 md:mt-20 w-full">
   <svg fill="none" class="h-5 w-5 mx-auto mt-4 text-gray-400" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"></path>
   </svg>
 </div>
-<div class="content-2 mt-4 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-gray-800 h-auto pb-14">
+<div class="content-2 relative isolate mt-10 py-10 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-slate-800  h-auto pb-14">
   {{-- <h1 class="text-xl md:text-2xl pt-8 font-bold text-center my-auto text-gray-900 dark:text-white">About <span class="underline underline-offset-2 decoration-4 decoration-blue-500">RPL's</span></h1> --}}
   <figure class="max-w-screen-md mx-auto text-center pt-10">
-    <svg aria-hidden="true" class="w-10 h-10 md:w-12 md:h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-    <blockquote>
-      <p class="text-base md:text-xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+  <div class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] dark:bg-black opacity-5"></div>
+  <div class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white dark:bg-slate-900/90 shadow-xl shadow-indigo-600/10 dark:shadow-black ring-1 ring-indigo-50 dark:ring-0 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
+    <div class="flex space-x-1 mb-8 items-center justify-center">
+      <div class="w-4 h-4 p-2 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
+      <div class="w-4 h-4 p-2 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
+      <div class="w-4 h-4 p-2 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
+    </div>
+  
+    <blockquote class="text-center text-xl dark:text-slate-300 font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+      <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
     </blockquote>
-    <figcaption class="flex items-center justify-center mt-6 space-x-3">
-      <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
-      <div class="flex items-center divide-x-2 divide-gray-500 dark:givide-gray-700">
-        <span class="pr-3 text-sm md:text-base font-medium text-gray-900 dark:text-white">Maman Suparman, S.T</span>
-        <span class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Wali Kelas XII RPL 1</span>
+    <figcaption class="mt-10 mb-5">
+      <img class="mx-auto h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+      <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+        <div class="font-semibold text-gray-900 dark:text-slate-200">Judith Black</div>
+        <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900 dark:fill-gray-300">
+          <circle cx="1" cy="1" r="1" />
+        </svg>
+        <div class="text-gray-600 dark:text-slate-300">CEO of Workcation</div>
       </div>
     </figcaption>
   </figure>
 </div>
 
-<div class="mt-12 md:mt-12 border-b border-gray-200 dark:border-gray-600 w-full"></div>
+<div class="mt-12 md:mt-12 border-b border-gray-200 dark:border-slate-700 w-full"></div>
 
-<div class="content-3 pt-4 pb-10 px-4 md:px-10 mx-auto bg-white dark:bg-gray-800 ">
+<div class="content-3 pt-4 pb-10 px-4 md:px-10 mx-auto bg-white dark:bg-slate-800 ">
   <div class="inline-flex pb-3 items-center justify-center w-full">
-    <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700">
-    <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-800">
+    <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-slate-700">
+    <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-slate-800">
       <h1 class="font-bold text-gray-900 dark:text-white">RPL's</h1>
     </div>
   </div>
@@ -109,14 +146,14 @@
     </div>
   </div>
   <div class="text-center mt-14">
-    <svg fill="none" class="w-7 h-7 mx-auto text-blue-700" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg fill="none" class="w-7 h-7 mx-auto text-indigo-600" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75"></path>
     </svg>
     <span class="mx-auto text-center text-gray-500 dark:text-gray-400 text-sm">Activities</span>
   </div>
 </div>
 
-<div class="content-4 pb-10 mx-auto bg-white dark:bg-gray-800">
+<div class="content-4 pb-10 mx-auto bg-white dark:bg-slate-800">
   <div class="mx-4 md:mx-48 rounded-xl border-2 border-dashed border-gray-300 dark:border-gray-700">
     {{-- <div class="inline-flex mb-5">
       <svg fill="none" class="h-7 w-7 mt-4 ml-5 text-gray-900 dark:text-white" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -126,7 +163,7 @@
     </div> --}}
 
     <div class="px-8 md:px-10 mt-8 pb-4">
-      <ol class="relative border-l border-gray-200 dark:border-gray-700">
+      <ol class="relative border-l border-gray-200 dark:border-slate-700">
         <li class="mb-5 ml-6">
           <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
@@ -164,7 +201,7 @@
   </div>
 </div>
 
-<div class="content-5 pb-5 mt-4 pt-7 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-gray-800">
+<div class="content-5 pb-5 mt-4 pt-7 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-slate-900">
   <div class="mb-5">
     <div class="flex -space-x-4">
     <h1 class="text-lg font-medium mt-1 mr-5 text-gray-800 dark:text-white">More Students</h1>
@@ -174,8 +211,8 @@
       <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
     </div>
   </div>
-  <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3">
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 border-b hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+  <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-slate-700 md:mb-12 md:grid-cols-3">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 border-b hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <h3 class="text-sm font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
@@ -190,7 +227,7 @@
         </div>
       </figcaption>
     </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-700 border-b md:border-r border-gray-200  dark:bg-gray-800 dark:border-gray-700">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b md:border-r border-gray-200  dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <h3 class="text-sm hidden md:flex font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
@@ -205,7 +242,7 @@
         </div>
       </figcaption>
     </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-700 border-b border-gray-200 md:rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b border-gray-200 md:rounded-tr-lg dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <h3 class="text-sm hidden md:flex font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
@@ -221,7 +258,7 @@
       </figcaption>
     </figure>
 
-    <figure class="flex flex-col items-center justify-center p-8 text-center border-b md:border-b-0 bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 md:rounded-bl-lg   md:border-r dark:bg-gray-800 dark:border-gray-700">
+    <figure class="flex flex-col items-center justify-center p-8 text-center border-b md:border-b-0 bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 md:rounded-bl-lg  md:border-r dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <p class="my-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa suscipit provident vero, consectetur eligendi dolorum tempora.</p>
       </blockquote>
@@ -233,7 +270,7 @@
         </div>
       </figcaption>
     </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-700 border-b md:border-b-0 md:border-r border-gray-200  dark:bg-gray-800 dark:border-gray-700">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b md:border-b-0 md:border-r border-gray-200  dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <p class="my-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint esse officia sequi perspiciatis dignissimos!</p>
       </blockquote>
@@ -245,7 +282,7 @@
         </div>
       </figcaption>
     </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 rounded-br-lg rounded-bl-lg md:rounded-bg-lg-0 dark:bg-gray-800 dark:border-gray-700">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 rounded-br-lg rounded-bl-lg md:rounded-bg-lg-0 dark:bg-slate-800 dark:border-slate-700">
       <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
         <p class="my-4 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque nihil minima eveniet.</p>
       </blockquote>
