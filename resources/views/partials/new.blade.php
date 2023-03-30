@@ -9,7 +9,7 @@
   <link href="/css/app.css" rel="stylesheet">
 </head>
 <body class="dark:bg-slate-900">
-  <nav class="bg-white/20 backdrop-blur-sm px-2 sm:px-10 py-2 dark:bg-slate-900/30 fixed w-full z-10 top-0 left-0 border-b border-gray-200/80   dark:border-slate-800">
+  <nav class="bg-white/20 backdrop-blur-sm px-4 sm:px-10 py-2 dark:bg-slate-900/30 fixed w-full z-10 top-0 left-0 border-b border-gray-200/80   dark:border-slate-800">
     <div class="container flex flex-wrap items-center max-md:justify-between mx-auto">
       <a href="#" class="flex items-center">
         <span class="text-xl sm:ml-0 md:-ml-6 lg:ml-0 font-semibold whitespace-nowrap dark:text-white">rplone-webkelas</span>

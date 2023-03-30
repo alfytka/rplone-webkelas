@@ -3,10 +3,6 @@
 <div class="content mt-36 md:mt-40 px-4 md:px-10 mx-auto">
   <div class="bg-transparent -z-10 absolute">
     <div class="w-20 h-20 md:w-32 md:h-32 border-solid blur-xl dark:blur-3xl border-r-[0px] border-l-[70px] border-t-[70px] border-b-[70px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-60 md:left-[580px] lg:left-[840px]" style="border-color: transparent #c4b5fd;"></div>
-    {{-- <div class="flex">
-      <div class="w-20 h-20 md:w-32 md:h-32 blur-xl border-solid border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative top-12 md:top-0 left-10 md:left-20 lg:left-32" style="border-color: transparent #c4b5fd;"></div>
-      <div class="w-20 h-20 md:w-32 md:h-32 blur-xl border-solid border-r-[0px] border-l-[60px] border-t-[60px] border-b-[60px] md:border-l-[80px] md:border-t-[80px] md:border-b-[80px] relative left-10 md:left-20 lg:left-24" style="border-color: transparent #ddd6fe;"></div>
-    </div> --}}
   </div>
   <div class="w-5 mx-auto mb-3 text-gray-400">
     <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -24,20 +20,19 @@
       </defs>
     </svg>
   </div>
-  {{-- <span class="flex items-center mx-auto justify-center text-sm font-semibold text-indigo-700 bg-indigo-100 w-32 h-8 rounded-full border-2 border-indigo-700">Web kelas v.1.0</span> --}}
   <div class="rounded-full mx-auto w-32 text-center font-medium mb-2 px-3 py-1 text-sm leading-6 text-indigo-600 ring-1 ring-indigo-600/10 hover:ring-indigo-600/20 dark:ring-indigo-700/20">
     Web kelas v.1.0
   </div>
-  <h1 class="text-3xl mb-1 font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Rekayasa Perangkat Lunak</h1>
+  <h1 class="text-3xl mb-1 font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-slate-200">Rekayasa Perangkat Lunak</h1>
   <h1 class="text-3xl font-extrabold leading-none text-center tracking-tight text-blue-600 md:text-4xl lg:text-5xl dark:text-blue-500">RPL ONE #1.</h1>
-  <p class="mt-6 text-base font-normal text-gray-500 lg:text-lg md:px-36 lg:px-56 text-center dark:text-gray-400">Kami persembahkan, website kelas Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deserunt eos at voluptatem? Voluptatem, fuga. <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r to-blue-400 from-blue-600">SMKN 3 BANJAR</span></p>
+  <p class="mt-6 text-base font-normal text-gray-500 lg:text-lg md:px-36 lg:px-56 text-center dark:text-slate-300">Kami persembahkan, website kelas Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deserunt eos at voluptatem? Voluptatem, fuga. <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r to-blue-400 from-blue-600">SMKN 3 BANJAR</span></p>
 
   <div class="md:w-[500px] mx-auto">
     <ol class="mt-10 flex items-center w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400">
       <li class="flex w-full items-center text-blue-600 dark:text-blue-500 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1  sm:after:inline-block after:mx-1 xl:after:mx-3 dark:after:border-gray-700">
         <span class="flex items-center after:content-[''] after:font-light after:text-gray-200 dark:after:text-gray-500">
           <svg aria-hidden="true" class="w-4 h-4 mr-2 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-          2020{{-- 2020 <span class="hidden sm:block sm:ml-1">(Joined)</span> --}}
+          2020
         </span>
       </li>
       <li class="flex w-full items-center text-blue-600 dark:text-blue-500 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1  sm:after:inline-block after:mx-1 xl:after:mx-3 dark:after:border-gray-700">
@@ -55,7 +50,7 @@
       <li class="flex items-center">
         <span class="flex items-center ">
           <svg aria-hidden="true" class="w-4 h-4 mr-2 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-          2023{{-- 2023 <span class="hidden sm:inline-flex sm:ml-1">(Lulus)</span> --}}
+          2023
         </span>
       </li>
     </ol>
@@ -79,7 +74,7 @@
     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"></path>
   </svg>
 </div>
-<div class="content-2 relative isolate mt-10 py-10 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-slate-800  h-auto pb-14">
+<div class="content-2 relative overflow-hidden isolate mt-10 py-10 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-slate-800  h-auto pb-14">
   {{-- <h1 class="text-xl md:text-2xl pt-8 font-bold text-center my-auto text-gray-900 dark:text-white">About <span class="underline underline-offset-2 decoration-4 decoration-blue-500">RPL's</span></h1> --}}
   <figure class="max-w-screen-md mx-auto text-center pt-10">
   <div class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] dark:bg-black opacity-5"></div>
@@ -96,11 +91,11 @@
     <figcaption class="mt-10 mb-5">
       <img class="mx-auto h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
       <div class="mt-4 flex items-center justify-center space-x-3 text-base">
-        <div class="font-semibold text-gray-900 dark:text-slate-200">Judith Black</div>
+        <div class="font-semibold text-gray-900 dark:text-slate-200">Maman Suparman, S.T</div>
         <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900 dark:fill-gray-300">
           <circle cx="1" cy="1" r="1" />
         </svg>
-        <div class="text-gray-600 dark:text-slate-300">CEO of Workcation</div>
+        <div class="text-gray-600 dark:text-slate-300">Wali kelas XII RPL 1</div>
       </div>
     </figcaption>
   </figure>
@@ -108,41 +103,77 @@
 
 <div class="mt-12 md:mt-12 border-b border-gray-200 dark:border-slate-700 w-full"></div>
 
-<div class="content-3 pt-4 pb-10 px-4 md:px-10 mx-auto bg-white dark:bg-slate-800 ">
-  <div class="inline-flex pb-3 items-center justify-center w-full">
-    <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-slate-700">
-    <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-slate-800">
-      <h1 class="font-bold text-gray-900 dark:text-white">RPL's</h1>
+<div class="content-3 pt-4 pb-10 px-4 md:px-10 mx-auto bg-white dark:bg-slate-800 border-b border-gray-200 dark:border-slate-700">
+  <div class="relative mx-1 md:mx-7 lg:mx-10 header-section my-16">
+    <div class="flex max-w-sm items-start justify-between">
+      <div>
+        <h6 class="text-xl font-bold dark:text-slate-300">About RPL</h6>
+        <h1 class="text-5xl font-bold text-indigo-500 tracking-tighter">about rpl's</h1>
+        <div class="flex">
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="w-10 h-10 my-auto rounded-md shadow-md dark:shadow-indigo-800 bg-indigo-500/10 dark:bg-white/5 p-1.5 ring-2 ring-indigo-500 dark:ring-indigo-700">
+        <svg class="w-7 h-7 text-indigo-500 dark:text-indigo-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"></path>
+        </svg>
+      </div>
     </div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-    <div class="rounded-lg mb-2">
-      <div class="flex">
-        <svg fill="none" class="w-5 h-5 mt-0.5 md:mt-1 text-blue-700" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
-        </svg>
-        <h2 class="text-base md:text-lg ml-2 font-semibold text-gray-900 dark:text-white">Rekayasa Perangkat Lunak</h2>
+  <div class="px-2 relative md:px-7 lg:px-10 grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-10">
+    <div class="flex">
+      <div class="p-0.5">
+        <div class="w-10 h-10 rounded-md shadow-md dark:shadow-indigo-800 bg-indigo-500/10 dark:bg-white/5 p-1.5 ring-2 ring-indigo-500 dark:ring-indigo-700">
+          <svg class="w-7 h-7 text-indigo-500 dark:text-indigo-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
+          </svg>
+        </div>
       </div>
-      <p class="text-[15px] md:text-base mt-1 md:mt-2 pl-7 text-gray-700 dark:text-gray-400">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      <div class="ml-5">
+        <h5 class="text-base font-semibold leading-6 text-gray-900 dark:text-slate-200">Rekayasa Perangkat Lunak</h5>
+        <p class="text-[15px] md:text-base leading-6 mt-1 md:mt-2 text-gray-700 dark:text-slate-300/80">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      </div>
     </div>
-    <div class="rounded-lg mb-2">
-      <div class="flex">
-        <svg fill="none" class="w-5 h-5 mt-0.5 md:mt-1 text-blue-700" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
-        </svg>
-        <h2 class="text-base md:text-lg ml-2 font-semibold text-gray-900 dark:text-white">Rekayasa Perangkat Lunak</h2>
+    <div class="flex">
+      <div class="p-0.5">
+        <div class="w-10 h-10 rounded-md shadow-md dark:shadow-indigo-800 bg-indigo-500/10 dark:bg-white/5 p-1.5 ring-2 ring-indigo-500 dark:ring-indigo-700">
+          <svg class="w-7 h-7 text-indigo-500 dark:text-indigo-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"></path>
+          </svg>
+        </div>
       </div>
-      <p class="text-[15px] md:text-base mt-1 md:mt-2 pl-7 text-gray-700 dark:text-gray-400">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      <div class="ml-5">
+        <h5 class="text-base font-semibold leading-6 text-gray-900 dark:text-slate-200">Rekayasa Perangkat Lunak</h5>
+        <p class="text-[15px] md:text-base leading-6 mt-1 md:mt-2 text-gray-700 dark:text-slate-300/80">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      </div>
     </div>
-    <div class="rounded-lg">
-      <div class="flex">
-        <svg fill="none" class="w-5 h-5 mt-0.5 md:mt-1 text-blue-700" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
-        </svg>
-        <h2 class="text-base md:text-lg ml-2 font-semibold text-gray-900 dark:text-white">Rekayasa Perangkat Lunak</h2>
+    <div class="flex">
+      <div class="p-0.5">
+        <div class="w-10 h-10 rounded-md shadow-md dark:shadow-indigo-800 bg-indigo-500/10 dark:bg-white/5 p-1.5 ring-2 ring-indigo-500 dark:ring-indigo-700">
+          <svg class="w-7 h-7 text-indigo-500 dark:text-indigo-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"></path>
+          </svg>
+        </div>
       </div>
-      <p class="text-[15px] md:text-base mt-1 md:mt-2 pl-7 text-gray-700 dark:text-gray-400">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      <div class="ml-5">
+        <h5 class="text-base font-semibold leading-6 text-gray-900 dark:text-slate-200">Rekayasa Perangkat Lunak</h5>
+        <p class="text-[15px] md:text-base leading-6 mt-1 md:mt-2 text-gray-700 dark:text-slate-300/80">Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak.</p>
+      </div>
     </div>
   </div>
   <div class="text-center mt-14">
@@ -153,147 +184,170 @@
   </div>
 </div>
 
-<div class="content-4 pb-10 mx-auto bg-white dark:bg-slate-800">
-  <div class="mx-4 md:mx-48 rounded-xl border-2 border-dashed border-gray-300 dark:border-gray-700">
-    {{-- <div class="inline-flex mb-5">
-      <svg fill="none" class="h-7 w-7 mt-4 ml-5 text-gray-900 dark:text-white" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"></path>
-      </svg>
-      <h1 class="text-lg md:text-xl ml-2 mt-4 font-semibold text-gray-900 dark:text-white">Activities</h1>
-    </div> --}}
+<div class="content-4 pb-16 mx-auto bg-white dark:bg-slate-800">
 
-    <div class="px-8 md:px-10 mt-8 pb-4">
-      <ol class="relative border-l border-gray-200 dark:border-slate-700">
-        <li class="mb-5 ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-          </span>
-          <time class="block mb-1 pt-1.5 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Januari 2020</time>
-          <a href="#"><h3 class="flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white">Uji Kompetensi keahlian</h3></a>
-          <p class="mb-4 text-[15px] md:text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga maxime, libero sed amet omnis quia ex modi et cupiditate animi.</p>
-        </li>
-        <li class="mb-5 ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-          </span>
-          <time class="block mb-1 pt-1.5 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Januari 2020</time>
-          <a href="#"><h3 class="flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white">Uji Kompetensi keahlian</h3></a>
-          <p class="mb-4 text-[15px] md:text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolores.</p>
-        </li>
-        <li class="mb-5 ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-          </span>
-          <time class="block mb-1 pt-1.5 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Januari 2020</time>
-          <a href="#"><h3 class="flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white">Uji Kompetensi keahlian</h3></a>
-          <p class="mb-4 text-[15px] md:text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolores.</p>
-        </li>
-        <li class="mb-5 ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-          </span>
-          <time class="block mb-1 pt-1.5 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Januari 2020</time>
-          <a href="#"><h3 class="flex items-center text-base md:text-lg font-semibold text-gray-900 dark:text-white">Uji Kompetensi keahlian</h3></a>
-          <p class="mb-4 text-[15px] md:text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. At necessitatibus aliquid temporibus cum, velit omnis!</p>
-        </li>
-      </ol>
+  <div class="relative mx-6 md:mx-7 lg:mx-20 header-section py-16">
+    <div class="flex max-w-sm items-start space-x-5">
+      <div class="w-10 h-10 my-auto rounded-md shadow-md dark:shadow-indigo-800 bg-indigo-500/10 dark:bg-white/5 p-1.5 ring-2 ring-indigo-500 dark:ring-indigo-700">
+        <svg class="w-7 h-7 text-indigo-500 dark:text-indigo-700" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
+        </svg>
+      </div>
+      <div>
+        <h1 class="text-5xl font-bold text-indigo-500 tracking-tighter">Our activities</h1>
+        <div class="flex absolute">
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+          <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="mx-5 md:mx-7 lg:mx-20 rounded-xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-10">
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500 dark:text-slate-400">Mar 16, 2020</time>
+          <a href="#" class="relative rounded-full bg-gray-50 dark:bg-slate-700 px-3 py-1.5 font-medium text-gray-600 dark:text-slate-200 hover:bg-gray-100">Marketing</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 dark:text-slate-300 group-hover:text-gray-600 dark:group-hover:text-slate-200">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Boost your conversion rate
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 dark:text-slate-300">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+        </div>
+      </article>
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500 dark:text-slate-400">Mar 16, 2020</time>
+          <a href="#" class="relative rounded-full bg-gray-50 dark:bg-slate-700 px-3 py-1.5 font-medium text-gray-600 dark:text-slate-200 hover:bg-gray-100">Marketing</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 dark:text-slate-300 group-hover:text-gray-600 dark:group-hover:text-slate-200">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Boost your conversion rate
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 dark:text-slate-300">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+        </div>
+      </article>
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500 dark:text-slate-400">Mar 16, 2020</time>
+          <a href="#" class="relative rounded-full bg-gray-50 dark:bg-slate-700 px-3 py-1.5 font-medium text-gray-600 dark:text-slate-200 hover:bg-gray-100">Marketing</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 dark:text-slate-300 group-hover:text-gray-600 dark:group-hover:text-slate-200">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Boost your conversion rate
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 dark:text-slate-300">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+        </div>
+      </article>
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500 dark:text-slate-400">Mar 16, 2020</time>
+          <a href="#" class="relative rounded-full bg-gray-50 dark:bg-slate-700 px-3 py-1.5 font-medium text-gray-600 dark:text-slate-200 hover:bg-gray-100">Marketing</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 dark:text-slate-300 group-hover:text-gray-600 dark:group-hover:text-slate-200">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Boost your conversion rate
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 dark:text-slate-300">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+        </div>
+      </article>
+    </div>
+
   </div>
 </div>
 
-<div class="content-5 pb-5 mt-4 pt-7 px-4 md:px-10 mx-auto bg-gray-50 dark:bg-slate-900">
-  <div class="mb-5">
-    <div class="flex -space-x-4">
-    <h1 class="text-lg font-medium mt-1 mr-5 text-gray-800 dark:text-white">More Students</h1>
-      <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="">
-      <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="">
-      <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="">
-      <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
+<div class="content bg-gray-50 py-24 sm:py-32 dark:bg-slate-900">
+  <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+    <div class="max-w-2xl">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-slate-200 sm:text-4xl">Member kelas</h2>
+      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-300">Ini dia profile masing-masing dari kami yang pernah duduk dibangku kelas RPL 1 ~ angkatan 2020 (Lulus 2023)</p>
+      <a href="#" class="flex mt-2 text-sm font-medium leading-6 text-indigo-500">Tampilkan lebih banyak siswa <svg class="my-auto ml-1 w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+      </svg></a>
     </div>
-  </div>
-  <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-slate-700 md:mb-12 md:grid-cols-3">
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 border-b hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <h3 class="text-sm font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
-        </svg></h3>
-        <p class="my-4 font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ad.</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Teguh Afriansyah</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Ketua Kelas XII RPL 1</div>
+    <ul class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b md:border-r border-gray-200  dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <h3 class="text-sm hidden md:flex font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
-        </svg></h3>
-        <p class="my-4 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt modi vel cum eaque libero saepe at temporibus.</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Elfan Hari Saputra</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Sekretaris II</div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b border-gray-200 md:rounded-tr-lg dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <h3 class="text-sm hidden md:flex font-semibold text-gray-900 dark:text-white"><svg fill="none" class="h-10 w-10 mx-auto" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181"></path>
-        </svg></h3>
-        <p class="my-4 font-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit saepe vitae eveniet, id unde nihil.</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Renal Ajrun Adhim</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Boxir</div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
-
-    <figure class="flex flex-col items-center justify-center p-8 text-center border-b md:border-b-0 bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 md:rounded-bl-lg  md:border-r dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <p class="my-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa suscipit provident vero, consectetur eligendi dolorum tempora.</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Alfitka Haerul Kurniawan</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Siswa XII RPL 1</div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-b md:border-b-0 md:border-r border-gray-200  dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <p class="my-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint esse officia sequi perspiciatis dignissimos!</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Andre Daniswara Putra</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Siswa XII RPL 1</div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-gray-50 hover:bg-gray-100 dark:hover:bg-slate-900 border-gray-200 rounded-br-lg rounded-bl-lg md:rounded-bg-lg-0 dark:bg-slate-800 dark:border-slate-700">
-      <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-        <p class="my-4 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque nihil minima eveniet.</p>
-      </blockquote>
-      <figcaption class="flex items-center justify-center space-x-3">
-        <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-        <div class="font-medium dark:text-white text-left">
-          <div>Khikmal Kurniawan</div>
-          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Web Developer</div>
+      </li>
+      <li>
+        <div class="flex items-center gap-x-6">
+          <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          <div>
+            <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-slate-300">Leslie Alexander</h3>
+            <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+          </div>
         </div>
-      </figcaption>
-    </figure>
+      </li>
+    </ul>
   </div>
 </div>
 
