@@ -7,6 +7,20 @@
   <title>Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="/css/app.css" rel="stylesheet">
+  <style>
+    .siswa-list::-webkit-scrollbar {
+      width: 5px;
+    }
+    .siswa-list::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+      background: #c9c9c9;
+      border-radius: 10px;
+    }
+    .siswa-list::-webkit-scrollbar-thumb {
+      background: rgb(88, 102, 224);
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body class="dark:bg-slate-900">
   <nav class="bg-white/20 backdrop-blur-sm px-4 sm:px-10 py-2 dark:bg-slate-900/30 fixed w-full z-10 top-0 left-0 border-b border-gray-200/80   dark:border-slate-800">
@@ -42,16 +56,19 @@
             <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Teachers</a>
+                  <a href="/teacher" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Teachers</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Students</a>
+                  <a href="/student" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Students</a>
+                </li>
+                <li>
+                  <a href="/quotes" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Quotes</a>
                 </li>
               </ul>
             </div>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 {{ Request::is('store') ? 'text-white md:font-semibold md:text-blue-700 dark:text-white bg-blue-700' : 'text-gray-700 dark:text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' }} rounded md:bg-transparent md:p-0">Store</a>
+            <a href="/store" class="block py-2 pl-3 pr-4 {{ Request::is('store') ? 'text-white md:font-semibold md:text-blue-700 dark:text-white bg-blue-700' : 'text-gray-700 dark:text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' }} rounded md:bg-transparent md:p-0">Store</a>
           </li>
           <li>
             <a href="#" class="block py-2 pl-3 pr-4 {{ Request::is('rpl') ? 'text-white md:font-semibold md:text-blue-700 dark:text-white bg-blue-700' : 'text-gray-700 dark:text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700' }} rounded md:bg-transparent md:p-0">About RPL's</a>

@@ -1,4 +1,4 @@
-@extends('partials.main')
+@extends('partials.new')
 @section('content')
 <div class="content mt-20 md:mt-32 px-4 md:px-20 lg:px-64 mx-auto">
   <div class="w-5 mx-auto mb-3 text-gray-400">

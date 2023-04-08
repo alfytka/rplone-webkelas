@@ -288,82 +288,97 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
       </svg></a>
     </div>
-    <ul class="grid gap-x-5 gap-y-10 grid-cols-2 md:grid-cols-4 sm:gap-y-16 xl:col-span-2">
+    <ul class="grid gap-x-2 md:gap-x-0 gap-y-8 grid-cols-2 md:grid-cols-4 sm:gap-y-10 xl:col-span-2">
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Elfan Hari Saputra</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">elfan</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Teguh Afriansyah</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">teguh</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Khikmal Kurniawan</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">khikmal</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Renal Ajrun Adhim</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">renal</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Rafli Al-Musyafa</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">rafly</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+         <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Andre Daniswara Putra</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">andrew</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <img class="h-[70px] w-[70px] rounded-full mx-auto object-cover" src="/img/jokowi.jpg" alt="">
+          <a href="#">
+            <img class="w-20 h-20 rounded-full mx-auto object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </a>
           <div class="py-5">
-            <h3 class="text-base font-semibold leading-6 tracking-tight text-gray-900 dark:text-slate-300">Andre Daniswara Putra</h3>
-            <p class="text-sm font-semibold leading-6 text-indigo-600">andrew</p>
+            <h3 class="text-base font-semibold leading-6 tracking-tight text-black dark:text-slate-300">Lorem, ipsum.</h3>
+            <p class="text-sm leading-6 text-slate-600 dark:text-slate-400">Lorem</p>
           </div>
         </div>
       </li>
       <li>
         <div class="items-center justify-center text-center gap-x-6">
-          <div class="flex justify-end -space-x-10">
+          {{-- <div class="flex justify-end items-center -space-x-10">
+            <img class="h-14 w-14 rounded-full object-cover" src="/img/jokowi.jpg" alt="">
+            <img class="h-16 w-16 rounded-full object-cover" src="/img/jokowi.jpg" alt="">
             <img class="h-[70px] w-[70px] rounded-full object-cover" src="/img/jokowi.jpg" alt="">
-            <img class="h-[70px] w-[70px] rounded-full object-cover" src="/img/jokowi.jpg" alt="">
-            <a class="flex items-center justify-center w-[70px] h-[70px] text-base font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+34</a>
-          </div>
-          <div class="pt-5 flex items-center justify-center space-x-1">
+            <a class="flex items-center justify-center w-20 h-20 text-base font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+34</a>
+          </div> --}}
+          <a href="#" class="mt-8 flex items-center justify-center space-x-1">
             <div class="w-3 h-3 p-1 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
             <div class="w-3 h-3 p-1 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
             <div class="w-3 h-3 p-1 rounded-full bg-slate-300 dark:bg-slate-700 shadow-inner shadow-indigo-500/50"></div>
-          </div>
+          </a>
         </div>
       </li>
     </ul>
@@ -379,7 +394,7 @@
       <li class="mb-5 md:mb-0">
         <a href="#" class="text-sm leading-6 hover:underline">Activities</a>
       </li>
-      <li class="mb-5 md:mb-0">
+      <li class="mb-0">
         <a href="#" class="text-sm leading-6 hover:underline">Teachers</a>
       </li>
     </ul>
@@ -390,7 +405,7 @@
       <li class="mb-5 md:mb-0">
         <a href="#" class="text-sm leading-6 hover:underline">Store</a>
       </li>
-      <li class="mb-5 md:mb-0">
+      <li class="mb-0">
         <a href="#" class="text-sm leading-6 hover:underline">About RPL's</a>
       </li>
     </ul>

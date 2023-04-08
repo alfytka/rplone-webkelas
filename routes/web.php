@@ -19,7 +19,19 @@ Route::get('/activities', function() {
     return view('activities');
 });
 Route::get('/student', function() {
-    return view('student');
+    return view('new_student');
+});
+Route::get('/teacher', function() {
+    return view('teacher');
+});
+Route::get('/quotes', function() {
+    return view('quotes');
+});
+Route::get('/detail', function() {
+    return view('detail-student');
+});
+Route::get('/store', function() {
+    return view('404');
 });
 Route::get('/user', function() {
     $users = User::all();
