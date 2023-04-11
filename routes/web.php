@@ -15,6 +15,9 @@ Route::get('/home', function() {
 Route::get('/dashboard', function() {
     return view('admin.dashboard');
 });
+Route::get('/detail-activities', function() {
+    return view('detail-activities');
+});
 Route::get('/activities', function() {
     return view('activities');
 });
